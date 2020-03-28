@@ -1,110 +1,75 @@
 <html>
-    <head>
-        <!-- Ana Blazic,Ana Saponjic -->
-        <title>Master minds</title>
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" 
-        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-        <link rel="stylesheet" href="stil.css">
-    </head>
-    <body>
-        <div class='container'>
-            <div class='row'>
-                <div class='col-sm-12'>
-                    <br> <br> <br> <br> <br> <br>
-                </div>
-            </div>
-            <div class="row">
-                <div class='col-sm-4'>
-                    <img src='slike/logo.png' class = "logofront"width="100%">
-
-                </div>
-
-                <div class='col-sm-6'>
-                    <h2 style= "color: white;">Registracija</h2>
-                    <br>
-                    <form>
-                        <table class='table'>
-                            <tr>
-                                <td>
-                                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                                    <label for="ime" style= "color: white;">Korisnicko ime:</label>
-                                </td>
-                                <td>
-                                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                                    <input type="text" id="ime" placeholder="Unesite korisnicko ime">
-                                </td>
-                            </tr>
-                            <tr>
-                                <td>
-                                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                                    <label style= "color: white;" for="ime1">Ime:</label>
-                                </td>
-                                <td>
-                                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                                    <input  type="text" id="ime1" placeholder="Unesite ime">
-                                </td>
-                            </tr>
-                            <tr>
-                                <td>
-                                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                                    <label style= "color: white;" for="prezime">Prezime:</label>
-                                </td>
-                                <td>
-                                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                                    <input  type="text" id="prezime" placeholder="Unesite prezime">
-                                </td>
-                            </tr>
-                            <tr>
-                                <td>
-                                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                                    <label style= "color: white;" for="mail">E-mail:</label>
-                                </td>
-                                <td>
-                                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                                    <input  type="email" id="mail" placeholder="Unesite e-mail">
-                                </td>
-                            </tr>
-                            <tr>
-                                <td>
-                                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                                    <label style= "color: white;" for="loz">Lozinka:</label>
-                                </td>
-                                <td>
-                                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                                    <input  type="password" id="loz" placeholder="Unesite lozinku">
-                                </td>
-                            </tr>
+ 
+      <!-- Ana Blazic,Ana Saponjic -->
+       <head>
+		<title> Master Mind Registruj </title>
+		<link rel="stylesheet" href="stil.css">
+	
+		
+	</head> 
 
 
-                        </table>
-                        <input type='checkbox'>Prihvatam uslove koriscenja
-                        <div class='row'>
-                            <br>
-                        </div>
-                        <div class='row'>
-                            <div class='col-sm-3'>
-                                <a href='index.html'>Prijavi se</a>
-                            </div>
-                            <div class='offset-sm-4 col-sm-3'>
-                                <button class='btn btn-primary dugme' id='d2'> Registruj se</button>
-                            </div>
-                        </div>
-                      
-                        <hr/>
-                        
-                        <br>
-                        
-
-                    </form>
-                </div>
-            </div>
-
-
-
-        </div>
-
-    </body>
-
+<body>
+	<div class="regBox">
+		
+		<img src="slike/pink.png" class="user">
+		<div class = "naslov_mastermind"> <h2> Master Minds </h2></div>
+		<form size = "100%">
+		<table size = "100%" align = "center">
+		<tr> 
+		<td> <p>Korisnicko ime &nbsp &nbsp </p>  </td>
+		<td> <input type="text" name = "reg_username" placeholder="Unesite Korisnicko Ime"> </td>
+		</tr>
+		
+		<tr>
+		<td> <p>Ime </p> </td>
+		<td> <input type="text" name = "reg_ime" placeholder="Unesite Ime"></td>
+		</tr>
+		
+		<tr>
+		 <td><p>Prezime </p></td>
+		 <td><input type="text" name = "reg_prezime" placeholder="Unesite Prezime"> </td>
+		 </tr>
+		 
+		 <tr>
+		 <td><p>E-mail </p> </td>
+		 <td><input type="text" name = "reg_prezime" placeholder="Unesite E-mail"> </td>
+		 </tr>
+		 
+		  <tr>
+		 <td>  <p>Lozinka </p> </td>
+		 <td> <input type="password" name = "reg_lozinka" placeholder="Unesite Lozinku"> </td>
+		 </tr>
+		 
+		 <tr> </tr>
+		 <td colspan = "2">
+		 <input type="submit" name = "klik_reg" value="Registruj se">
+		 </td>
+		 
+		 <tr>
+		 <td colspan = "2"> 
+		  <div class = 'words_login'> 
+			 <a href ="index.html"> Nazad</a>
+			  </p>
+		 </td>
+		 </tr>
+		</table>
+			
+			
+			
+		    
+			
+		    
+           
+			
+			
+			
+				
+			
+		</form>
+	</div>
+	</div>
+	</body>
 
 
 </html>
